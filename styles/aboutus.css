@@ -1,0 +1,19 @@
+body {
+    background-color: #fff4e6;
+    margin: 0;
+}
+section {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2 {
+    color: darkred;
+}
+footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
