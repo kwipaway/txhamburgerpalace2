@@ -17,3 +17,22 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.hero {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../Images/InsideOfStore2.jpg") center / cover no-repeat;
+}
+
+.hero h1 {
+    margin: 0 0 20px;
+    color: white;
+    font-size: clamp(2.5rem, 8vw, 6rem);
+}
